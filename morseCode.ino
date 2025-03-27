@@ -13,12 +13,8 @@ until it is changed by sending the new phase over UART or resetting.
 #define LED 5
 
 // WiFi credentials
-const char *ssid = "Airtel_Dicot";
-const char *password = "Dicot@240122";
-
-const int ledPin = 5;
-float blinkFreq = 1.0; // Hz
-bool blinkEnabled = true;
+const char *ssid = "SSID";
+const char *password = "Password";
 
 String morseCharset[] = { ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--..", ".----", "..---", "...--", "....-", ".....", "-....", "--...", "---..", "----.", "-----", "..--..", "-.-.--", ".-.-.-", "--..--", "-.-.-.", "---...", ".-.-.", "-....-", "-..-.", "-...-" };
 String netCharset = "abcdefghijklmnopqrstuvwxyz1234567890?!.,;:+-/=";
